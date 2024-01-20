@@ -1,5 +1,11 @@
 
 function Titulo(){
-    return <h1>Oi, eu sou um</h1>
+    let nome = "Eduardo Andrade"
+
+    return (
+        <div>
+            <h1>Oi, eu sou o {nome}</h1>
+        </div>
+    )
 }
 export default Titulo
